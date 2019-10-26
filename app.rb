@@ -4,7 +4,7 @@ class App < Sinatra::Base
   
   configure do 
     enable :sessions
-    set :session_secret, "test"
+    set :session_secret, "test_secret_123"
   end 
   
   get "/" do 
